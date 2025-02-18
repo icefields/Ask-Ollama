@@ -1,6 +1,6 @@
 local ollama = require("ollama-req")
 
-local parsed_data = ollama.askOllama("smollm2:135m", "tell me about calico cats", "192.168.6.66")
+local parsed_data = ollama.askOllama("smollm2:135m", "tell me about calico cats", "192.168.1.77")
 
 print("Model: " .. parsed_data.model)
 print("Created At: " .. parsed_data.created_at)
